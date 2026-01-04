@@ -448,7 +448,7 @@ function Library:MakeWindow(WindowConfig)
 	if WindowConfig.IntroEnabled == nil then
 		WindowConfig.IntroEnabled = true
 	end
-	WindowConfig.IntroToggleIcon = WindowConfig.IntroToggleIcon or "rbxassetid://8834748103"
+	WindowConfig.IntroToggleIcon = WindowConfig.IntroToggleIcon or "rbxassetid://122009723666654"
 	WindowConfig.IntroText = WindowConfig.IntroText or "SOC2 "
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
