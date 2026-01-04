@@ -763,7 +763,7 @@ function OrionLib:MakeWindow(WindowConfig)
 
 			-- ➕ Farbe ändern
 			TabFrame.Title.TextColor3 = Color3.fromRGB(244, 244, 244) -- Deine Wunschfarbe
-			TabFrame.Ico.ImageColor3 = Color3.fromRGB(61, 132, 208)
+			TabFrame.Ico.ImageColor3 = Color3.fromRGB(244, 244, 244)
 		end    
 
 		AddConnection(TabFrame.MouseButton1Click, function()
@@ -786,8 +786,8 @@ function OrionLib:MakeWindow(WindowConfig)
 			TabFrame.Title.Font = Enum.Font.GothamBlack
 			Container.Visible = true   
 
-			TabFrame.Title.TextColor3 = Color3.fromRGB(61, 132, 208)
-			TabFrame.Ico.ImageColor3 = Color3.fromRGB(61, 132, 208)
+			TabFrame.Title.TextColor3 = Color3.fromRGB(244, 244, 244)
+			TabFrame.Ico.ImageColor3 = Color3.fromRGB(244, 244, 244)
 		end)
 
 		local function GetElements(ItemParent)
